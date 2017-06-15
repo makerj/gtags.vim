@@ -248,8 +248,8 @@ if !exists("g:Gtags_Close_When_Single")
 endif
 
 " -- ctags-x format 
-" let Gtags_Result = "ctags-x"
-" let Gtags_Efm = "%*\\S%*\\s%l%\\s%f%\\s%m"
+let Gtags_Result = "ctags-x"
+let Gtags_Efm = "%*\\S%*\\s%l%\\s%f%\\s%m"
 "
 " -- ctags format 
 " let Gtags_Result = "ctags"
